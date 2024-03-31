@@ -121,7 +121,7 @@ def main():
         perceptron.W = np.array([-2.02083026, 2.94208571 ,-1.76004079 , 3.1433658])
         perceptron.V = np.array([6.30815985, -1.0364398,  -3.56490991, -2.40600994 , 2.18526134])
         perceptron.W_recurrent = np.array([0.70807258])
-        perceptron.theta_weight = 0.1869447244658871
+        perceptron.theta_weight = 0.6486736122753459
         
         # Convert POS tags input to a list of integers
         pos_list = list(map(int, pos_list.split()))
