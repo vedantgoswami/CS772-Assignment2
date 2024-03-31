@@ -118,8 +118,8 @@ def main():
         perceptron = SingleRecurrentPerceptron(4)
         
         # Load weights and parameters for the perceptron model
-        perceptron.W = np.array([-1.86080029, 2.3998372, -1.52803791, 2.83185258])
-        perceptron.V = np.array([5.38456172, -0.98171575, -3.13981176, -2.24891975, 2.0102182])
+        perceptron.W = np.array([-2.02083026, 2.94208571 ,-1.76004079 , 3.1433658])
+        perceptron.V = np.array([6.30815985, -1.0364398,  -3.56490991, -2.40600994 , 2.18526134])
         perceptron.W_recurrent = np.array([0.70807258])
         perceptron.theta_weight = 0.1869447244658871
         
